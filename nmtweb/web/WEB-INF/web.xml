@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>Nmt</servlet-name>
+        <servlet-class>cn.nmtweb.servlet.Nmt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Nmt</servlet-name>
+        <url-pattern>/Nmt</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserLogin</servlet-name>
+        <servlet-class>cn.nmtweb.servlet.UserLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLogin</servlet-name>
+        <url-pattern>/UserLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserLogout</servlet-name>
+        <servlet-class>cn.nmtweb.servlet.UserLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLogout</servlet-name>
+        <url-pattern>/UserLogout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserRegister</servlet-name>
+        <servlet-class>cn.nmtweb.servlet.UserRegister</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserRegister</servlet-name>
+        <url-pattern>/UserRegister</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserInfo</servlet-name>
+        <servlet-class>cn.nmtweb.servlet.UserInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserInfo</servlet-name>
+        <url-pattern>/UserInfo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>QuestionHome</servlet-name>
+        <servlet-class>cn.nmtweb.servlet.QuestionHome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuestionHome</servlet-name>
+        <url-pattern>/QuestionHome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserMessage</servlet-name>
+        <servlet-class>cn.nmtweb.servlet.UserMessage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserMessage</servlet-name>
+        <url-pattern>/UserMessage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SysManage</servlet-name>
+        <servlet-class>cn.nmtweb.servlet.SysManage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SysManage</servlet-name>
+        <url-pattern>/SysManage</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>nmt_En2Ch.jsp</welcome-file>
+    </welcome-file-list>
+
+
+</web-app>

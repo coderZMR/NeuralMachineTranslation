@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#tableContainer {
+    margin: 0 auto;
+}
+
+#submit {
+    width: 452px;
+}

@@ -1,0 +1,15 @@
+.header-left {
+    float:left;
+    height:100%;
+    width:200px;
+    overflow: hidden;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+.logo {
+    font-size: 20px;
+}
+.logo-desc {
+    color: rgba(178, 178, 178, 0.93);
+    padding: 5px 5px;
+}

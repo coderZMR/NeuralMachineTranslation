@@ -1,0 +1,14 @@
+.input-box {
+    width:100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height:150px;
+    font-size:24px;
+    padding:8px 8px 32px;
+    resize:none;
+    box-sizing: border-box;
+}
+.box-output {
+    background-color: #f1f1f1;
+    border: 0px solid;
+}
